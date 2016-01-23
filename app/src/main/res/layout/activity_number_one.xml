@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".NumberOneActivity" >
+
+      <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="wrap_content"
+          android:layout_height="150dp"
+          android:layout_gravity="fill_horizontal"
+          android:contentDescription="@+id/imageView1"
+          android:scaleType="fitCenter"
+          android:src="@drawable/introduction"
+          android:layout_centerVertical="true"
+          android:layout_alignRight="@+id/ScrollView1"
+          android:layout_marginRight="440dp" />
+
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="209dp"
+        android:background="@drawable/hises"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="&quot;Only about 20 per cent of consumers in the country are aware of the Act even after 25 years of its existence. It is the best known act followed by Weights and Measures Act, 1976 and Food Safety and Standards Act, 2006,&quot; said a study jointly conducted by NGO CUTS International and Food and Consumer Affairs Ministry.\n\n
+Just 42 per cent have heard about consumer rights and almost 50 per cent of consumers are not even aware about government's 'Jago Grahak Jago' campaign, the study says. Releasing the report, Food and Consumer Affairs Minister K V Thomas said, &quot;We proclaim consumer is king. Unfortunately, larger section of society does not know about their rights&quot;.Even if educated consumers take their complaints to dealers or shop owners, they are asked to go to makers of the products, he said. This was an English Newspaper Report. But this is fact indeed in todays India.\n\n
+This application is built keeping in mind to help our citizen, the contents are modified according to my knowledge but are very precise and helpful.\n\n
+The moment a person comes into this would, he starts consuming. He needs
+clothes, milk, oil, soap, water, and many more things and these needs keep taking
+one form or the other all along his life. Thus we all are consumers in the literal
+sense of the term. When we approach the market as a consumer, we expect value
+for money, i.e., right quality, right quantity, right prices, information about the
+mode of use, etc. But there may be instances where a consumer is harassed or
+cheated.\n\n
+And therefore the Government understood the need to protect consumers from such suppliers, and several laws have been made for this purpose. There are severals act which to some extent protect consumer
+interests. However, these laws require the consumer to initiate action by way of a
+civil suit involving lengthy legal process which is very expensive and time
+consuming.\n\n
+
+The Consumer Protection Act, 1986 was enacted to provide a simpler and quicker
+access to redress of consumer grievances. The Act for the first time introduced
+the concept of ‘consumer’ and conferred express additional rights on him. It is
+interesting to note that the Act doesn’t seek to protect every consumer within the
+literal meaning of the term. The protection is meant for the person who fits in the
+definition of ‘consumer’ given by the Act.\n\n
+Now we understand that the Consumer Protection Act provides means to protect
+consumers interest.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/ScrollView1" />
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
